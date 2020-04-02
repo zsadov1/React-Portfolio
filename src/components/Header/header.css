@@ -13,9 +13,22 @@ header {
 }
 
 nav {
-	height: 5px;
+	/* height: 5px; */
 }
 
 a {
 	color: black;
+}
+
+h1 {
+	font-size: 100px;
+}
+
+p {
+	font-size: 25px;
+}
+
+.headshot-size {
+	height: 200px;
+	width: 50%;
 }
