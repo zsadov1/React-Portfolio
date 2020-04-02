@@ -3,6 +3,7 @@ import React from "react";
 import Header from "./components/Header/header";
 import Project from "./components/Project/project";
 import Navbar from "./components/Navbar/navbar";
+// import AboutMe from "./components/Aboutme/aboutme";
 // import Navbar from "./components/Navbar/navbar";
 import Footer from "./components/Footer/footer";
 import "./app.css";
@@ -16,9 +17,9 @@ function App() {
 					<Header />
 					<Navbar />
 					<Project />
-					{/* <Route exact path="/" component={About} />
-            <Route exact path="/projects" component={Projects} />
-            <Route exact path="/contact" component={Contact} /> */}
+					{/* <Route exact path="/" component={About} /> */}
+					{/* <Route exact path="/projects" component={Projects} /> */}
+					{/* <Route exact path="/contact" component={Contact} />  */}
 				</div>
 				<Footer />
 			</div>
