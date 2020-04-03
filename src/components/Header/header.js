@@ -1,33 +1,60 @@
 import React from "react";
-import Image from "react-image-resizer";
-import Serious from "../Header/serious.png";
-import Question from "../Header/question.png";
-import Silly from "../Header/silly.png";
-import Excited from "../Header/excited.png";
 import "../Header/header.css";
 
 function Header() {
 	return (
-		<header>
-			<div className='container-fluid'>
-				<div className='row mood-pics'>
-					<div className='col-md-6'>
-						<div className='center-pics'>
-							<Image src={Question} width={300} height={300} />
-							<p className='letters'>Z</p>
-							<Image src={Excited} width={300} height={300} />
-							<p className='letters'>A</p>
-						</div>
-					</div>
-					<div className='col-md-6'>
-						<Image src={Silly} width={300} height={300} />
-						<p className='letters'>C</p>
-						<Image src={Serious} width={300} height={300} />
-						<p className='letters'>H.</p>
-					</div>
-				</div>
+		<div className='container'>
+			<button
+				className='navbar-toggler'
+				type='button'
+				data-toggle='collapse'
+				data-target='.dual-nav'
+			>
+				<span className='navbar-toggler-icon'></span>
+			</button>
+			<div className='navbar-collapse collapse dual-nav w-50 order-1 order-md-0'>
+				<ul className='navbar-nav'>
+					<li className='nav-item active'>
+						<a className='nav-link pl-0' href='/'>
+							About Me.
+						</a>
+					</li>
+					<li className='nav-item'>
+						<a className='nav-link' href='/Projects'>
+							Projects.
+						</a>
+					</li>
+					<li className='nav-item'>
+						<a className='nav-link' href='/'>
+							Resume.
+						</a>
+					</li>
+				</ul>
 			</div>
-		</header>
+
+			<div className='navbar-collapse collapse dual-nav w-50 order-2'>
+				<ul className='nav navbar-nav ml-auto'>
+					<li className='nav-item'>
+						<a
+							className='nav-link'
+							href='https://www.linkedin.com/in/zachary-sadovszky-b10a60196/'
+						>
+							<i className='fab fa-linkedin'></i>
+						</a>
+					</li>
+					<li className='nav-item'>
+						<a className='nav-link' href='https://github.com/zsadov1'>
+							<i className='fab fa-github'></i>
+						</a>
+					</li>
+					<li className='nav-item'>
+						<a className='nav-link' href='mailto: zsadov1@gmail.com'>
+							<i className='far fa-envelope'></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
 	);
 }
 
