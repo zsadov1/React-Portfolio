@@ -1,18 +1,29 @@
 import React from "react";
-import "../Header/header.css";
-import Headshot from "./serious-headshot.png";
 import Image from "react-image-resizer";
+import Serious from "../Header/serious.png";
+import Question from "../Header/question.png";
+import Silly from "../Header/silly.png";
+import Excited from "../Header/excited.png";
+import "../Header/header.css";
 
 function Header() {
 	return (
 		<header>
 			<div className='container-fluid'>
-				<div className='row'>
-					<div className='col-6-lg'>
-						<h1 className='text-center'>Howdy,</h1>
-						<h1 className='text-center'>I'm Zach.</h1>
-						<p className='text-center'> Full Stack Web Developer </p>
-						<p className='text-center'>Richmond, Virginia</p>
+				<div className='row mood-pics'>
+					<div className='col-md-6'>
+						<div className='center-pics'>
+							<Image src={Question} width={300} height={300} />
+							<p className='letters'>Z</p>
+							<Image src={Excited} width={300} height={300} />
+							<p className='letters'>A</p>
+						</div>
+					</div>
+					<div className='col-md-6'>
+						<Image src={Silly} width={300} height={300} />
+						<p className='letters'>C</p>
+						<Image src={Serious} width={300} height={300} />
+						<p className='letters'>H.</p>
 					</div>
 				</div>
 			</div>

@@ -16,18 +16,18 @@ function Navbar() {
 				<div className='navbar-collapse collapse dual-nav w-50 order-1 order-md-0'>
 					<ul className='navbar-nav'>
 						<li className='nav-item active'>
-							<a className='nav-link pl-0' href='index.html'>
-								Home <span className='sr-only'>Home</span>
+							<a className='nav-link pl-0' href='/'>
+								About Me.
 							</a>
 						</li>
 						<li className='nav-item'>
-							<a className='nav-link' href='project.html'>
-								Projects
+							<a className='nav-link' href='/'>
+								Projects.
 							</a>
 						</li>
 						<li className='nav-item'>
-							<a className='nav-link' href='resume.html'>
-								Resume
+							<a className='nav-link' href='/'>
+								Resume.
 							</a>
 						</li>
 					</ul>
