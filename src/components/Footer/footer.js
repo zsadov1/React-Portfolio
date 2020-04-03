@@ -4,9 +4,7 @@ import React from "react";
 function Footer() {
 	return (
 		<footer>
-			<p className='text-sm-center'>
-				&copy; 2020 Zach Sadovszky • (804) 363-6102
-			</p>
+			<p className='text-center'>&copy; 2020 Zach Sadovszky • (804) 363-6102</p>
 		</footer>
 	);
 }

@@ -31,13 +31,13 @@ p {
 
 .letters {
 	text-shadow: #dedede;
-	font-size: 50px;
+	font-size: 100px;
 }
 
-.center-pics {
-	justify-items: center;
+.center-container {
+	text-align: center;
 }
 
-.howdy {
-	font-family: "Roboto Mono", monospace;
+.inline-center {
+	display: inline-block;
 }
