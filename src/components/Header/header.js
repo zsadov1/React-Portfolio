@@ -7,7 +7,7 @@ function Header() {
 
 	return (
 		<header>
-			<navbar>
+			<nav>
 				<div className='container-fluid'>
 					<button
 						className='navbar-toggler'
@@ -17,7 +17,7 @@ function Header() {
 					>
 						<br></br>
 						<span className='navbar-toggler-icon'>
-							<i class='fas fa-hat-cowboy fa-lg'>
+							<i className='fas fa-hat-cowboy fa-lg'>
 								<p className='howdy'>Howdy!</p>
 							</i>
 						</span>
@@ -100,7 +100,7 @@ function Header() {
 						</ul>
 					</div>
 				</div>
-			</navbar>
+			</nav>
 		</header>
 	);
 }

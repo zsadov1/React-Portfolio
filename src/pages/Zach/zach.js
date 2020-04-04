@@ -10,7 +10,7 @@ import "./zach.css";
 function AboutMe() {
 	return (
 		<>
-			<div className='container-fluid'>
+			<div className='flex-container'>
 				<div className='row text-center'>
 					<div className='col-md-6'>
 						<Image src={Question} width={350} height={350} />

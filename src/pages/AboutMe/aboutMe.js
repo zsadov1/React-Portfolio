@@ -1,43 +1,63 @@
 import React from "react";
-import Image from "react-image-resizer";
-import Serious from "../AboutMe/serious.png";
-import Question from "../AboutMe/question.png";
-import Silly from "../AboutMe/silly.png";
-import Excited from "../AboutMe/excited.png";
 
-import "./aboutme.css";
-
-function AboutMe() {
+function About() {
 	return (
 		<>
-			<div className='container-fluid'>
-				<div className='row text-center'>
+			<br></br>
+			<div className='container'>
+				<div className='row'>
 					<div className='col-md-6'>
-						<Image src={Question} width={350} height={350} />
-						<p className='letters'>Z</p>
-						<p>
-							<i class='far fa-meh fa-lg'></i>
+						<h1>Hi, I'm Zach.</h1>
+						&nbsp;
+						<p>0.Full stack web developer</p>
+						<p>1.Living in Richmond, Virginia.</p>
+					</div>
+					<div className='col-md-6'>
+						<p className='text-left'>
+							<br></br>I have a real passion creating applications and solving
+							problems. I'm interested in the ever changing landscape of web
+							development, and excited to play a role in future application
+							utilization. Im working on getting a Certificate in Full Stack Web
+							Development (MERN Stack) from the University of Richmond.
 						</p>
 					</div>
 					<div className='col-md-6'>
-						<Image src={Excited} width={350} height={350} />
-						<p className='letters'>A</p>
-						<p>
-							<i class='far fa-grin-beam fa-lg'></i>
+						<p className='text-justify'>
+							I'm a native Richmonder. Upon my arrival into the adult world I
+							was at a stalemate with what I wanted to do. I did the college
+							thing for a little while and ultimately ended up working full
+							time.I downloaded a few coding apps and I dipped my toes into the
+							water, and found out it wasn't very cold. I really enjoyed the
+							puzzles and solutions I was able to come up with. With this new
+							found hobby I decided to take a dive and signed up for the the
+							University of Richmond's Full Stack Bootcamp. When I'm not coding
+							or at work I love to skateboard with my friends and play music.
 						</p>
 					</div>
 					<div className='col-md-6'>
-						<Image src={Silly} width={350} height={350} />
-						<p className='letters'>C</p>
-						<p>
-							<i class='far fa-laugh-squint fa-lg'></i>
-						</p>
-					</div>
-					<div className='col-md-6'>
-						<Image src={Serious} width={350} height={350} />
-						<p className='letters'>H</p>
-						<p>
-							<i class='far fa-smile fa-lg'></i>
+						<h2 className='text-left'>Technical Skills:</h2>
+						<p className='text-left'>
+							<span className='font-weight-bold'>Languages:</span>
+							&nbsp;JavaScript, HTML, CSS, SQL
+							<br />
+							<span className='font-weight-bold'>JavaScript Libraries:</span>
+							&nbsp;React, jQuery, Chart.js, Moment.js
+							<br />
+							<span className='font-weight-bold'>
+								CSS Preprocessors Frameworks:
+							</span>
+							&nbsp;Sass, Bootstrap, Materialize
+							<br />
+							<span className='font-weight-bold'>Databases:</span>
+							&nbsp;MongoDB, MySQL, IndexedDB
+							<br />
+							<span className='font-weight-bold'>Server-Side Development:</span>
+							&nbsp;Node.js, Express, Handlebars, Mongoose, Sequelize,
+							Passport.js
+							<br />
+							<span className='font-weight-bold'>Deployment:</span>
+							&nbsp;Git, GitHub, Heroku, JawsDB, mLab
+							<br />
 						</p>
 					</div>
 				</div>
@@ -46,4 +66,4 @@ function AboutMe() {
 	);
 }
 
-export default AboutMe;
+export default About;
