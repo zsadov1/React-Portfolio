@@ -1,10 +1,10 @@
 import React from "react";
-import Image from "react-image-resizer";
-import CarFree from "./carfree.png";
-import Lucidity from "./lucidity.png";
-import Password from "./passwordgenerator.png";
-import Dayplanner from "./dayplanner.png";
-import Fitness from "./fitnesstracket.png";
+// import Image from "react-image-resizer";
+// import CarFree from "./public/assets/images/carefree.png";
+// import Lucidity from "./public/assets/images/lucidity.png";
+// import Password from "./public/assets/images/passwordgenerator.png";
+// import Dayplanner from "./public/assets/images/dayplanner.png";
+// import Fitness from "./public/assets/images/fitnesstracket.png";
 import "./projects.css";
 
 function Projects() {
@@ -13,7 +13,7 @@ function Projects() {
 			<div className='flex-container'>
 				<div className='col-md-6'>
 					<div>
-						<Image src={Lucidity} width={400} height={400} />
+						{/* <Image src={Lucidity} width={400} height={400} /> */}
 						<h5>.Lucidity</h5>
 						<p>A music generator based on your mood.</p>
 						<a
@@ -27,7 +27,7 @@ function Projects() {
 
 				<div className='col-md-6'>
 					<div>
-						<Image src={CarFree} width={400} height={400} />
+						{/* <Image src={CarFree} width={400} height={400} /> */}
 						<div>
 							<h5>Carfree</h5>
 							<p className='card-text'>
@@ -47,7 +47,7 @@ function Projects() {
 
 				<div className='col-md-6'>
 					<div>
-						<Image src={Password} width={400} height={400} />
+						{/* <Image src={Password} width={400} height={400} /> */}
 						<div>
 							<h5>Random Password Generator</h5>
 							<p>
@@ -66,7 +66,7 @@ function Projects() {
 
 				<div className='col-md-6'>
 					<div>
-						<Image src={Fitness} width={400} height={400} />
+						{/* <Image src={Fitness} width={400} height={400} /> */}
 						<div>
 							<h5>Fitness Tracker</h5>
 							<p>
@@ -87,7 +87,7 @@ function Projects() {
 
 				<div className='col-md-6'>
 					<div>
-						<Image src={Dayplanner} width={400} height={400} />
+						{/* <Image src={Dayplanner} width={400} height={400} /> */}
 						<div>
 							<h5>Day Planner</h5>
 							<p>
