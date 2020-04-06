@@ -52,3 +52,9 @@ p {
 	max-width: 750px;
 	margin-bottom: 20px;
 }
+
+.navbar-toggler-icon {
+	button:focus {
+		outline: 0 !important;
+	}
+}

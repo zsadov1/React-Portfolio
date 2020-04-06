@@ -51,7 +51,7 @@ function Header() {
 
 							<li className='nav-item'>
 								<Link
-									to='/projects'
+									to='/resume'
 									className={
 										location.pathname === "/resume"
 											? "nav-link active"

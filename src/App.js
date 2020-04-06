@@ -6,7 +6,7 @@ import Footer from "./components/Footer/footer";
 
 import About from "./pages/AboutMe/aboutme";
 import Projects from "./pages/Projects/projects";
-// import Resume from "./pages/Resume/resume";
+import Resume from "./pages/Resume/resume";
 
 import "./app.css";
 
@@ -20,7 +20,7 @@ function App() {
 						<Header />
 						<Route exact path='/' component={About} />
 						<Route exact path='/projects' component={Projects} />
-						{/* <Route exact path='/resume' component={Resume} /> */}
+						<Route exact path='/resume' component={Resume} />
 					</div>
 					<Footer />
 				</div>
