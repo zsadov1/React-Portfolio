@@ -41,3 +41,14 @@ p {
 .howdy {
 	font-family: "Roboto Mono", monospace;
 }
+
+.flex-container {
+	display: flex;
+	justify-content: right;
+}
+
+.headshot {
+	width: 105%;
+	max-width: 750px;
+	margin-bottom: 20px;
+}

@@ -1,0 +1,47 @@
+[
+	{
+		"name": "CarFree",
+		"staticImg": "./assets/images/carfree.png",
+		"imgAlt": "CarFree",
+		"demoURL": " https://zsadov1.github.io/Project1/",
+		"repoURL": "https://github.com/marykatewhite/Project1",
+		"description": "Carfree is a hyper-minimalist interface to provide the most concise answer to one of life’s most commonly asked and urgent questions: Is it gone rain?",
+		"technologies": "JavaScript, Google Maps API, Dark Skies API, HTML, CSS, Bootstrap"
+	},
+	{
+		"name": "Lucidity",
+		"staticImg": "./assets/images/demos/Lucidity.png",
+		"imgAlt": "Lucidity",
+		"demoURL": " https://spotifeels.herokuapp.com",
+		"repoURL": "https://github.com/josi3006/SpotiFeels",
+		"description": "A responsive application that helps users decide what type of pet they want, matches users with available shelter animals, and then provides directions to the animal shelter.",
+		"technologies": "Javascript, Node.js,Express,Express-Handlebars,MySql,Jquery,Sequelize"
+	},
+	{
+		"name": "Fitness Tracker",
+		"staticImg": "./assets/images/fitnesstrack.png",
+		"imgAlt": "fitness-tracker",
+		"demoURL": "https://workout-tracker-17.herokuapp.com/",
+		"repoURL": "https://github.com/zsadov1/Workout-Tracker-17",
+		"description": "A daily workout tracker that uses a Mongo database with a Mongoose schema and handles routes with Express. Users can create a new workout plan, add exercises to an existing workout plan, and view statistics about previous workouts",
+		"technologies": "Node.js, Express, MongoDB, Mongoose, JavaScript"
+	},
+	{
+		"name": "Random Password Generator",
+		"staticImg": "./assets/images/demos/Transaction-Tracker-static.gif",
+		"imgAlt": "Random Password Generator",
+		"demoURL": "https://zsadov1.github.io/Password-generator/.",
+		"repoURL": "https://github.com/zsadov1/Password-generator",
+		"description": "This application can be used to generate a random password between 8 and 128 characters, using a slider.",
+		"technologies": "HTML, CSS, Bootstrap 4, Javascript"
+	},
+	{
+		"name": "Day Planner",
+		"staticImg": "./assets/images/demos/Burger-Logger-static.gif",
+		"imgAlt": "DayPlanner",
+		"demoURL": "https://zsadov1.github.io/Day-planner/.",
+		"repoURL": "https://github.com/zsadov1/Day-planner",
+		"description": "This can be used to plan your work day from 9AM to 5pm. The task are stored to local storage and will stay in on the planner when the page is refreshed.",
+		"technologies": "JavaScript, CSS, Bootstrap, HTML"
+	}
+]

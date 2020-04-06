@@ -7,7 +7,7 @@ function About() {
 			<div className='container'>
 				<div className='row'>
 					<div className='col-md-6'>
-						<h1>Hi, I'm Zach.</h1>
+						<h1>I'm Zach.</h1>
 						&nbsp;
 						<p>0.Full stack web developer</p>
 						<p>1.Living in Richmond, Virginia.</p>
@@ -17,7 +17,7 @@ function About() {
 							<br></br>I have a real passion creating applications and solving
 							problems. I'm interested in the ever changing landscape of web
 							development, and excited to play a role in future application
-							utilization. Im working on getting a Certificate in Full Stack Web
+							utilization. I'm working towards my Certificate in Full Stack Web
 							Development (MERN Stack) from the University of Richmond.
 						</p>
 					</div>
@@ -46,17 +46,17 @@ function About() {
 							<span className='font-weight-bold'>
 								CSS Preprocessors Frameworks:
 							</span>
-							&nbsp;Sass, Bootstrap, Materialize
+							&nbsp;Bootstrap
 							<br />
 							<span className='font-weight-bold'>Databases:</span>
-							&nbsp;MongoDB, MySQL, IndexedDB
+							&nbsp;MongoDB, MySQL
 							<br />
 							<span className='font-weight-bold'>Server-Side Development:</span>
 							&nbsp;Node.js, Express, Handlebars, Mongoose, Sequelize,
 							Passport.js
 							<br />
 							<span className='font-weight-bold'>Deployment:</span>
-							&nbsp;Git, GitHub, Heroku, JawsDB, mLab
+							&nbsp;Git, GitHub, Heroku, JawsDB
 							<br />
 						</p>
 					</div>

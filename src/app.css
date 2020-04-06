@@ -116,3 +116,7 @@ body {
 	display: flex;
 	justify-content: center;
 }
+
+.ContentDiv {
+	min-height: calc(100vh - 50px);
+}
