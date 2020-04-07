@@ -35,7 +35,7 @@ function Aboutme() {
 						</p>
 					</div>
 					<div className='col-md-6'>
-						<h2 className='text-left'>Technical Skills:</h2>
+						<h2 className='text-left'>Skills:</h2>
 						<p className='text-left'>
 							<span className='font-weight-bold'>Languages:</span>
 							&nbsp;JavaScript, HTML, CSS, SQL
