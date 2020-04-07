@@ -1,6 +1,6 @@
 import React from "react";
 
-function About() {
+function Aboutme() {
 	return (
 		<>
 			<br></br>
@@ -66,4 +66,4 @@ function About() {
 	);
 }
 
-export default About;
+export default Aboutme;
