@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Navbar from "../src/components/Navbar/navbar";
-import Header from "../src/components/Header/header";
-import Footer from "../src/components/Footer/footer";
+import Navbar from "./components/navbar/navbar";
+import Header from "./components/header/header";
+import Footer from "./components/footer/footer";
 
-import Projects from "./pages/Projects/projects";
-import Resume from "./pages/Resume/resume";
-import Aboutme from "./pages/Aboutme/aboutme";
+import Projects from "./pages/projects/projects";
+import Resume from "./pages/resume/resume";
+import Aboutme from "./pages/aboutme/aboutme";
 
 import "./app.css";
 

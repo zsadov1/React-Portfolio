@@ -1,5 +1,5 @@
 import React from "react";
-import Serious from "../Header/serious.png";
+import Serious from "../header/serious.png";
 
 import "./header.css";
 
