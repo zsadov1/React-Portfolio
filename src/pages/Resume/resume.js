@@ -40,22 +40,48 @@ function Resume() {
 						</p>
 
 						<h2>Web Tools: </h2>
-						<li>JavaScript</li>
-						<li>jQuery</li>
-						<li>CSS</li>
-						<li>HTML</li>
-						<li>Bootstrap</li>
-						<li>MySQL</li>
-						<li>GitHub</li>
-						<li>WordPress</li>
+						<p>
+							• JavaScript • HTML • CSS • SQL • ReactJS • jQuery • Chart.js •
+							Moment.js • Bootstrap • MongoDB • MySQL • Node.js • Express, •
+							Handlebars, • Mongoose • Sequelize • Passport.js • Git • GitHub •
+							Heroku • Jaws DB
+						</p>
 
 						<br></br>
 
 						<h2>Skills</h2>
-						<li>Problem-solving skills </li>
-						<li>Perceptiveness </li>
-						<li>Communication skills</li>
-						<li>Multi-tasking strength</li>
+						<ul>
+							<li>
+								A practical knowledge of website interfaces, cross-browser
+								compatibility, and web standards.
+							</li>
+							<li>
+								Collaboration skills to work with inter-departmental disciplines
+								and stakeholders of all kinds.
+								<li>
+									Strong understanding of Internet security best practices.
+								</li>
+								<li>
+									Project management skills to create and implement a roadmap
+									for better user engagement.{" "}
+								</li>
+								<li>
+									Digital knowledge in web, email, social media,smartphones –
+									and more.{" "}
+								</li>
+								<li>Written and verbal communication </li>
+								<li>
+									Flexible and able to adapt to fickle user or client behavior.
+								</li>
+								<li>Analytical, methodical, and driven by data. </li>
+								<li>Good multi-tasker and a self-starter. </li>
+								<li>
+									Patient troubleshooting skills when code gets broken or when a
+									customer can’t communicate their vision of the site.
+								</li>
+								<li>Handles pressure</li>
+							</li>
+						</ul>
 
 						<br></br>
 
@@ -126,16 +152,16 @@ function Resume() {
 
 						<h2> Education </h2>
 						<p>University of Richmond - Richmond, VA</p>
-						<p>
+						<li>
 							Expected in 04/2020 Full-Stack Web Development Bootcamp
 							Certification
-						</p>
+						</li>
 
 						<p>J Sargeant Reynolds Community College - Richmond, VA</p>
-						<p>05/2012 Associate of Science: Education</p>
+						<li>05/2012 Associate of Science: Education</li>
 
 						<p>Hampden-Sydney College - Hampden Sydney, VA</p>
-						<p>11/2011 Transferred</p>
+						<li>11/2011 Transferred</li>
 					</div>
 				</div>
 			</div>
