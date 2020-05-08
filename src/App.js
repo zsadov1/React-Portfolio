@@ -17,7 +17,6 @@ function App() {
 				<div>
 					<div className='ContentDiv'>
 						<Navbar />
-						<Header />
 						<Route exact path='/' component={Aboutme} />
 						<Route exact path='/projects' component={Projects} />
 						<Route exact path='/resume' component={Resume} />

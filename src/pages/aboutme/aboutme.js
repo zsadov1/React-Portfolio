@@ -1,13 +1,17 @@
 import React from "react";
+import Header from "../../components/header/header";
 
-function Aboutme() {
+import "./aboutme.css";
+
+function About() {
 	return (
 		<>
+			<Header />
 			<br></br>
 			<div className='container'>
 				<div className='row'>
-					<div className='col-md-6'>
-						<h1>I'm Zach.</h1>
+					<div className='text-center col-md-6'>
+						<h1> Hi I'm Zach.</h1>
 						&nbsp;
 						<p>0.Full stack web developer</p>
 						<p>1.Living in Richmond, Virginia.</p>
@@ -21,6 +25,10 @@ function Aboutme() {
 							Development (MERN Stack) from the University of Richmond.
 						</p>
 					</div>
+				</div>
+			</div>
+			<div className='container'>
+				<div className='row'>
 					<div className='col-md-6'>
 						<p className='text-justify'>
 							I'm a native Richmonder. Upon my arrival into the adult world I
@@ -34,28 +42,27 @@ function Aboutme() {
 							or at work I love to skateboard with my friends and play music.
 						</p>
 					</div>
+
 					<div className='col-md-6'>
-						<h2 className='text-left'>Skills:</h2>
-						<p className='text-left'>
-							<span className='font-weight-bold'>Languages:</span>
+						<h2 className='text-center titleunderline'>Technical Skills</h2>
+						<p className='text-center'>
+							<h3 className=' titleunderline'>Languages</h3>
 							&nbsp;JavaScript, HTML, CSS, SQL
 							<br />
-							<span className='font-weight-bold'>JavaScript Libraries:</span>
-							&nbsp;React, jQuery, Chart.js, Moment.js
+							<h3 className='titleunderline'>JavaScript Libraries</h3>
+							&nbsp;React, jQuery, Chart.js, Moment.js, React Native
 							<br />
-							<span className='font-weight-bold'>
-								CSS Preprocessors Frameworks:
-							</span>
-							&nbsp;Bootstrap
+							<h3 className='titleunderline'>CSS Preprocessors Frameworks</h3>
+							&nbsp;Bootstrap, Materialize
 							<br />
-							<span className='font-weight-bold'>Databases:</span>
-							&nbsp;MongoDB, MySQL
+							<h3 className=' titleunderline'>Databases</h3>
+							&nbsp;MongoDB, MySQL, Firebase
 							<br />
-							<span className='font-weight-bold'>Server-Side Development:</span>
+							<h3 className=' titleunderline'>Server-Side Development</h3>
 							&nbsp;Node.js, Express, Handlebars, Mongoose, Sequelize,
 							Passport.js
 							<br />
-							<span className='font-weight-bold'>Deployment:</span>
+							<h3 className=' titleunderline'>Deployment</h3>
 							&nbsp;Git, GitHub, Heroku, JawsDB
 							<br />
 						</p>
@@ -66,4 +73,4 @@ function Aboutme() {
 	);
 }
 
-export default Aboutme;
+export default About;
