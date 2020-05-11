@@ -10,9 +10,10 @@
 }
 
 .rowborder {
-	border: red;
+	/* border: red;
 	border-width: 5px;
-	border-style: solid;
+	border-style: solid; */
+	margin-bottom: 10px;
 }
 
 .button-container {
@@ -33,4 +34,9 @@
 
 .card {
 	max-height: 500px;
+}
+
+.projecttitle {
+	display: flex;
+	justify-content: center;
 }

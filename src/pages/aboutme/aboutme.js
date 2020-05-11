@@ -34,12 +34,12 @@ function About() {
 							I'm a native Richmonder. Upon my arrival into the adult world I
 							was at a stalemate with what I wanted to do. I did the college
 							thing for a little while and ultimately ended up working full
-							time.I downloaded a few coding apps and I dipped my toes into the
+							time.I downloaded a few coding apps and dipped my toes into the
 							water, and found out it wasn't very cold. I really enjoyed the
 							puzzles and solutions I was able to come up with. With this new
 							found hobby I decided to take a dive and signed up for the the
 							University of Richmond's Full Stack Bootcamp. When I'm not coding
-							or at work I love to skateboard with my friends and play music.
+							or at work, I love to skateboard with my friends and play music.
 						</p>
 					</div>
 

@@ -18,15 +18,20 @@ function ProjectComponent() {
 						<div class='card'>
 							<img src={Carfree} class='card-img-top' alt='...' />
 							<div class='card-body d-flex flex-column'>
-								<h5 class='card-title'>Carfree</h5>
-								<p class='card-text small'>
-									Carfree is a hyper-minimalist interface to provide the most
-									concise answer to one of life’s most commonly asked and urgent
-									questions: "Is it gone rain?"
-								</p>
+								<div className='projecttitle'>
+									<h5 class='card-title'>Carfree</h5>
+								</div>
 								<div class='button-container'>
-									<button className=' mt-auto projectbutton'>Code</button>
-									<button className='mt-auto projectbutton'>Demo</button>
+									<a
+										href='https://zsadov1.github.io/Carfree/'
+										className=' mt-auto projectbutton'>
+										Demo
+									</a>
+									<a
+										href='https://github.com/zsadov1/Carfree'
+										className=' mt-auto projectbutton'>
+										Code
+									</a>
 								</div>
 							</div>
 						</div>
@@ -35,15 +40,20 @@ function ProjectComponent() {
 						<div class='card'>
 							<img src={RollCall} class='card-img-top' alt='...' />
 							<div class='card-body d-flex flex-column'>
-								<h5 class='card-title'>Roll Call</h5>
-								<p class='card-text small'>
-									Roll Call allows caregivers in a childcare environment to keep
-									a visual record of the children in their care, and to move
-									children between caregivers, in real time.
-								</p>
+								<div className='projecttitle'>
+									<h5 class='card-title'>Roll Call</h5>
+								</div>
 								<div class='button-container'>
-									<button className=' mt-auto projectbutton'>Code</button>
-									<button className='mt-auto projectbutton'>Demo</button>
+									<a
+										href='https://roll-call-2020.herokuapp.com/'
+										className=' mt-auto projectbutton'>
+										Demo
+									</a>
+									<a
+										href='https://github.com/josi3006/RollCall'
+										className=' mt-auto projectbutton'>
+										Code
+									</a>
 								</div>
 							</div>
 						</div>
@@ -52,14 +62,20 @@ function ProjectComponent() {
 						<div class='card'>
 							<img src={Lucidity} class='card-img-top' alt='...' />
 							<div class='card-body d-flex flex-column'>
-								<h5 class='card-title'>Lucidity.</h5>
-								<p class='card-text small'>
-									Where your mood and music meet. We have crated a music
-									generator that gives you a song based on your current mood.
-								</p>
+								<div className='projecttitle'>
+									<h5 class='card-title'>Lucidity.</h5>
+								</div>
 								<div class='button-container'>
-									<button className=' mt-auto projectbutton'>Code</button>
-									<button className='mt-auto projectbutton'>Demo</button>
+									<a
+										href='https://roll-call-2020.herokuapp.com/'
+										className=' mt-auto projectbutton'>
+										Demo
+									</a>
+									<a
+										href='https://github.com/zsadov1/.Lucidity'
+										className=' mt-auto projectbutton'>
+										Code
+									</a>
 								</div>
 							</div>
 						</div>
@@ -67,21 +83,23 @@ function ProjectComponent() {
 				</div>
 				<div className='row rowborder'>
 					<div className='col-md-4 d-flex align-items-stretch'>
-						<div class='card'>
+						<div class='card .bg-transparent'>
 							<img src={Budget} class='card-img-top' alt='...' />
 							<div class='card-body d-flex flex-column'>
-								<h5 class='card-title'>Budget-Tracker</h5>
-								<p class='card-text small'>
-									An online/offline Progressive Web App that tracks account
-									balance, withdrawals, and deposits. It can be downloaded and
-									used online or offline due to the inclusion of an app manifest
-									and service worker. Data entered in offline mode is stored
-									client-side in IndexedDB, then stored server-side in MongoDB
-									once online again. The app also uses compress…
-								</p>
+								<div className='projecttitle'>
+									<h5 class='card-title'>Budget-Tracker</h5>
+								</div>
 								<div class='button-container'>
-									<button className=' mt-auto projectbutton'>Code</button>
-									<button className='mt-auto projectbutton'>Demo</button>
+									<a
+										href='https://budget-tracker-18.herokuapp.com/'
+										className=' mt-auto projectbutton'>
+										Demo
+									</a>
+									<a
+										href='https://github.com/zsadov1/Budget-Tracker'
+										className=' mt-auto projectbutton'>
+										Code
+									</a>
 								</div>
 							</div>
 						</div>
@@ -89,14 +107,21 @@ function ProjectComponent() {
 					<div className='col-md-4 d-flex align-items-stretch'>
 						<div class='card'>
 							<img src={NoteTaker} class='card-img-top' alt='...' />
-							<div class='d-flex flex-column card-body '>
-								<h5 class='card-title'>Lucidity.</h5>
-								<p class='card-text small'>
-									Note taking app using Javascript, Express, and node JS.
-								</p>
+							<div class='bg-transparent d-flex flex-column card-body '>
+								<div className='projecttitle'>
+									<h5 class='card-title'>Note Taker</h5>
+								</div>
 								<div class='button-container'>
-									<button className=' mt-auto projectbutton'>Code</button>
-									<button className='mt-auto projectbutton'>Demo</button>
+									<a
+										href='https://note-taker-11.herokuapp.com/'
+										className=' mt-auto projectbutton'>
+										Demo
+									</a>
+									<a
+										href='https://github.com/zsadov1/Note-Taker-11'
+										className=' mt-auto projectbutton'>
+										Code
+									</a>
 								</div>
 							</div>
 						</div>
@@ -105,16 +130,20 @@ function ProjectComponent() {
 						<div class='card'>
 							<img src={Userdirectory} class='card-img-top' alt='...' />
 							<div class='card-body d-flex flex-column'>
-								<h5 class='card-title'>User Directory</h5>
-								<p class='card-text small'>
-									A responsive, single-page React employee directory application
-									that enables sorting and filtering employee data. The
-									application uses React props, stateful and stateless
-									components. The Bootstrap CSS framework is used for styling.
-								</p>
+								<div className='projecttitle'>
+									<h5 class='card-title'>User Directory</h5>
+								</div>
 								<div class='button-container'>
-									<button className=' mt-auto projectbutton'>Code</button>
-									<button className='mt-auto projectbutton'>Demo</button>
+									<a
+										href='https://bowltrolls.herokuapp.com/'
+										className=' mt-auto projectbutton'>
+										Demo
+									</a>
+									<a
+										href='https://github.com/zsadov1/User-Directory'
+										className=' mt-auto projectbutton'>
+										Code
+									</a>
 								</div>
 							</div>
 						</div>

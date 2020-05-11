@@ -1,6 +1,9 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+
 import "../header/header.css";
+
+import "./nav.css";
 
 function Navbar() {
 	const location = useLocation();
@@ -13,8 +16,7 @@ function Navbar() {
 						className='navbar-toggler'
 						type='button'
 						data-toggle='collapse'
-						data-target='.dual-nav'
-					>
+						data-target='.dual-nav'>
 						<br></br>
 						<span className='navbar-toggler-icon'>
 							<i className='fas fa-hat-cowboy fa-lg'>
@@ -30,8 +32,7 @@ function Navbar() {
 									to='/'
 									className={
 										location.pathname === "/" ? "nav-link active" : "nav-link"
-									}
-								>
+									}>
 									Home.
 								</Link>
 							</li>
@@ -43,8 +44,7 @@ function Navbar() {
 										location.pathname === "/projects"
 											? "nav-link active"
 											: "nav-link"
-									}
-								>
+									}>
 									Projects.
 								</Link>
 							</li>
@@ -56,8 +56,7 @@ function Navbar() {
 										location.pathname === "/resume"
 											? "nav-link active"
 											: "nav-link"
-									}
-								>
+									}>
 									Resume.
 								</Link>
 							</li>
@@ -69,8 +68,7 @@ function Navbar() {
 							<li className='nav-item'>
 								<a
 									className='nav-link'
-									href='https://www.linkedin.com/in/zachary-sadovszky-b10a60196/'
-								>
+									href='https://www.linkedin.com/in/zachary-sadovszky-b10a60196/'>
 									<i className='fab fa-linkedin'></i>
 								</a>
 							</li>
