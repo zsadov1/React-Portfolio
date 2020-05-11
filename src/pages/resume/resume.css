@@ -1,0 +1,16 @@
+.resumebutton {
+	font-size: 90px;
+}
+
+.resumecontainer {
+	display: flex;
+	justify-content: center;
+	margin-top: 200px;
+}
+
+a:hover {
+	color: black;
+	text-decoration: none;
+	border: 2px;
+	border-style: solid;
+}
