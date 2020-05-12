@@ -1,8 +1,21 @@
 nav {
-	background-color: #d9d9d9;
+	background-color: #ffffff;
 	color: white;
 }
 
 .navbarstyle {
 	margin-bottom: 60px;
+}
+
+ul.nav a:hover {
+	color: #dcdcdc !important;
+}
+
+a {
+	color: black;
+
+	text-shadow: black;
+}
+a:hover {
+	color: #dcdcdc;
 }

@@ -27,7 +27,7 @@ function Navbar() {
 
 					<div className='navbar-collapse collapse dual-nav w-50 order-1 order-md-0'>
 						<ul className='navbar-nav'>
-							<li className='nav-item'>
+							<li className='nav-item highlight'>
 								<Link
 									to='/'
 									className={
