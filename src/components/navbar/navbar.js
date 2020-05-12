@@ -9,8 +9,8 @@ function Navbar() {
 	const location = useLocation();
 
 	return (
-		<header>
-			<nav className='navbar navbar-expand-lg fixed-top'>
+		<div className='navbarstyle'>
+			<nav className='navbar navbar-expand-sm navbar fixed-top'>
 				<div className='container-fluid'>
 					<button
 						className='navbar-toggler'
@@ -18,7 +18,7 @@ function Navbar() {
 						data-toggle='collapse'
 						data-target='.dual-nav'>
 						<br></br>
-						<span className='navbar-toggler-icon'>
+						<span>
 							<i className='fas fa-hat-cowboy fa-lg'>
 								<p className='howdy'>Howdy!</p>
 							</i>
@@ -86,7 +86,7 @@ function Navbar() {
 					</div>
 				</div>
 			</nav>
-		</header>
+		</div>
 	);
 }
 

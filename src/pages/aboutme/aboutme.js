@@ -6,8 +6,8 @@ import "./aboutme.css";
 function About() {
 	return (
 		<>
+			&nbsp;
 			<Header />
-			<br></br>
 			<div className='container'>
 				<div className='row'>
 					<div className='text-center col-md-6'>
