@@ -15,7 +15,7 @@ function About() {
 			<div className='container'>
 				<div className='row'>
 					<div className='col-md-6'>
-						<img src={Pro} className='img-fluid pro' />
+						<img src={Pro} className='img-fluid pro' alt='pro headshot' />
 					</div>
 					<div className='col-md-6'>
 						<div className='hi'>
@@ -43,14 +43,18 @@ function About() {
 						</p>
 					</div>
 					<div className='col-md-6 '>
-						<img src={Serious} className='img-fluid serious' />
+						<img
+							src={Serious}
+							className='img-fluid serious'
+							alt='serious headshot'
+						/>
 					</div>
 				</div>
 			</div>
 			<div className='container'>
 				<div className='row'>
 					<div className='col-md-6 '>
-						<img src={Happy} className='img-fluid funny' />
+						<img src={Happy} className='img-fluid funny' alt='Happy headshot' />
 					</div>
 					<div className='col-md-6'>
 						<p className='bio'>

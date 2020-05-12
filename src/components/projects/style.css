@@ -22,18 +22,28 @@
 }
 
 .projectbutton {
-	display: inline-block;
-	padding: 0.5em 3em;
-	border: 0.16em solid black;
-	margin: 0 0.3em 0.3em 0;
-	box-sizing: border-box;
+	padding: 5px 15px;
+	font-size: 18px;
+	cursor: pointer;
+	position: relative;
+	border: 2px solid black;
+	outline: none;
 	color: black;
-	text-align: center;
 	background-color: transparent;
+	white-space: nowrap;
+	margin-top: 5px;
+	border-radius: 8px;
+	margin-left: 10px;
+}
+
+.projectbutton:hover {
+	background-color: black;
+	color: white;
 }
 
 .card {
 	max-height: 500px;
+	margin-bottom: 10px;
 }
 
 .projecttitle {

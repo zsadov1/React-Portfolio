@@ -24,7 +24,7 @@ function Resume() {
 			<div className='container '>
 				<div className='row'>
 					<div className='col-md-12'>
-						<p className='resumeparagraph'>
+						<div className='resumeparagraph'>
 							Exceptionally creative and dependable web developer with a stellar
 							customer service record, and superb work ethic. Broadly and deeply
 							knowledgeable in a variety of computer languages as well as the
@@ -37,14 +37,15 @@ function Resume() {
 							using current best practices in web development. Fast learner,
 							hard worker and team player who is proficient in an array of
 							scripting languages and multimedia web tools.
-						</p>
+						</div>
 					</div>
 				</div>
+				&nbsp;
 			</div>
 			<div className='container'>
 				<div className='row'>
 					<div className='col-md-12'>
-						<p className='techskills'>
+						<div className='techskills'>
 							<h3>Technical Skills</h3>
 							<h5 className='techcatagories'>Languages</h5>
 							<p className='techitems'>Javascript,HTML, CSS, SQL</p>
@@ -66,7 +67,7 @@ function Resume() {
 							</p>
 							<h5 className='techcatagories'>Deployment</h5>
 							<p className='techitems'>Git, GitHub, Heroku, JawsDB</p>
-						</p>
+						</div>
 						&nbsp;
 					</div>
 					<div className='col-md-6'>
@@ -83,7 +84,7 @@ function Resume() {
 						<p className='softskills'>Open-mindedness</p>
 					</div>
 					<div className='col-md-6'>
-						<p className='education'>
+						<div className='education'>
 							<h3 className='soft'>Education</h3>
 							<h5 className='techcatagories'>University of Richmond </h5>
 							<p className='techitems'>Richmond, VA 04/2020</p>
@@ -100,7 +101,7 @@ function Resume() {
 							<h5 className='techcatagories'>Hampden-Sydney College </h5>
 							<p className='techitems'>Hampden Sydney, VA</p>
 							<p className='techitems'>11/2011 Transferred </p>
-						</p>
+						</div>
 					</div>
 				</div>
 				&nbsp;
@@ -114,7 +115,7 @@ function Resume() {
 							<h5>Franco's Fine Clothier </h5>
 							<p className='work'>Sales Associate</p>
 							<p className='work'>08/2019 to Current</p>
-							<p className='work'>
+							<ul className='work'>
 								<li>
 									Recommend, select, and help locate or obtain merchandise based
 									on customer needs and desires.
@@ -127,7 +128,7 @@ function Resume() {
 									Collaborate with clients to provide optimal assistance in
 									clothing and accessory purchases.
 								</li>
-							</p>
+							</ul>
 							<h5>Primrose Schools</h5>
 							<p className='work'>Teacher</p>
 							<p className='work'>03/2018 to 08/2019</p>

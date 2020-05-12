@@ -15,66 +15,66 @@ function ProjectComponent() {
 			<div className='container'>
 				<div className='row rowborder'>
 					<div className='col-md-4 d-flex align-items-stretch'>
-						<div class='card'>
-							<img src={Carfree} class='card-img-top' alt='...' />
-							<div class='card-body d-flex flex-column'>
+						<div className='card'>
+							<img src={Carfree} className='card-img-top' alt='...' />
+							<div className='card-body d-flex flex-column'>
 								<div className='projecttitle'>
-									<h5 class='card-title'>Carfree</h5>
+									<h5 className='card-title'>Carfree</h5>
 								</div>
-								<div class='button-container'>
+								<div className='button-container'>
 									<a
 										href='https://zsadov1.github.io/Carfree/'
 										className=' mt-auto projectbutton'>
-										Demo
+										Demo.
 									</a>
 									<a
 										href='https://github.com/zsadov1/Carfree'
 										className=' mt-auto projectbutton'>
-										Code
+										Code.
 									</a>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div className='col-md-4 d-flex align-items-stretch'>
-						<div class='card'>
-							<img src={RollCall} class='card-img-top' alt='...' />
-							<div class='card-body d-flex flex-column'>
+						<div className='card'>
+							<img src={RollCall} className='card-img-top' alt='...' />
+							<div className='card-body d-flex flex-column'>
 								<div className='projecttitle'>
-									<h5 class='card-title'>Roll Call</h5>
+									<h5 className='card-title'>Roll Call</h5>
 								</div>
-								<div class='button-container'>
+								<div className='button-container'>
 									<a
 										href='https://roll-call-2020.herokuapp.com/'
 										className=' mt-auto projectbutton'>
-										Demo
+										Demo.
 									</a>
 									<a
 										href='https://github.com/josi3006/RollCall'
 										className=' mt-auto projectbutton'>
-										Code
+										Code.
 									</a>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div className='col-md-4 d-flex align-items-stretch'>
-						<div class='card'>
-							<img src={Lucidity} class='card-img-top' alt='...' />
-							<div class='card-body d-flex flex-column'>
+						<div className='card'>
+							<img src={Lucidity} className='card-img-top' alt='...' />
+							<div className='card-body d-flex flex-column'>
 								<div className='projecttitle'>
-									<h5 class='card-title'>Lucidity.</h5>
+									<h5 className='card-title'>Lucidity.</h5>
 								</div>
-								<div class='button-container'>
+								<div className='button-container'>
 									<a
 										href='https://roll-call-2020.herokuapp.com/'
 										className=' mt-auto projectbutton'>
-										Demo
+										Demo.
 									</a>
 									<a
 										href='https://github.com/zsadov1/.Lucidity'
 										className=' mt-auto projectbutton'>
-										Code
+										Code.
 									</a>
 								</div>
 							</div>
@@ -83,66 +83,66 @@ function ProjectComponent() {
 				</div>
 				<div className='row rowborder'>
 					<div className='col-md-4 d-flex align-items-stretch'>
-						<div class='card .bg-transparent'>
-							<img src={Budget} class='card-img-top' alt='...' />
-							<div class='card-body d-flex flex-column'>
+						<div className='card .bg-transparent'>
+							<img src={Budget} className='card-img-top' alt='...' />
+							<div className='card-body d-flex flex-column'>
 								<div className='projecttitle'>
-									<h5 class='card-title'>Budget-Tracker</h5>
+									<h5 className='card-title'>Budget-Tracker</h5>
 								</div>
-								<div class='button-container'>
+								<div className='button-container'>
 									<a
 										href='https://budget-tracker-18.herokuapp.com/'
 										className=' mt-auto projectbutton'>
-										Demo
+										Demo.
 									</a>
 									<a
 										href='https://github.com/zsadov1/Budget-Tracker'
 										className=' mt-auto projectbutton'>
-										Code
+										Code.
 									</a>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div className='col-md-4 d-flex align-items-stretch'>
-						<div class='card'>
-							<img src={NoteTaker} class='card-img-top' alt='...' />
-							<div class='bg-transparent d-flex flex-column card-body '>
+						<div className='card'>
+							<img src={NoteTaker} className='card-img-top' alt='...' />
+							<div className='bg-transparent d-flex flex-column card-body '>
 								<div className='projecttitle'>
-									<h5 class='card-title'>Note Taker</h5>
+									<h5 className='card-title'>Note Taker</h5>
 								</div>
-								<div class='button-container'>
+								<div className='button-container'>
 									<a
 										href='https://note-taker-11.herokuapp.com/'
 										className=' mt-auto projectbutton'>
-										Demo
+										Demo.
 									</a>
 									<a
 										href='https://github.com/zsadov1/Note-Taker-11'
 										className=' mt-auto projectbutton'>
-										Code
+										Code.
 									</a>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div className='col-md-4 d-flex align-items-stretch'>
-						<div class='card'>
-							<img src={Userdirectory} class='card-img-top' alt='...' />
-							<div class='card-body d-flex flex-column'>
+						<div className='card'>
+							<img src={Userdirectory} className='card-img-top' alt='...' />
+							<div className='card-body d-flex flex-column'>
 								<div className='projecttitle'>
-									<h5 class='card-title'>User Directory</h5>
+									<h5 className='card-title'>User Directory</h5>
 								</div>
-								<div class='button-container'>
+								<div className='button-container'>
 									<a
 										href='https://bowltrolls.herokuapp.com/'
 										className=' mt-auto projectbutton'>
-										Demo
+										Demo.
 									</a>
 									<a
 										href='https://github.com/zsadov1/User-Directory'
 										className=' mt-auto projectbutton'>
-										Code
+										Code.
 									</a>
 								</div>
 							</div>
