@@ -2,3 +2,50 @@
 	text-decoration: underline;
 	font-weight: bold;
 }
+
+.hello {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.bio {
+	padding: 5px 15px;
+	border: black;
+	border-style: solid;
+	border-width: 5px;
+	margin-top: 30px;
+}
+
+.binary {
+	padding: 5px 15px;
+	border: black;
+	border-style: solid;
+	border-width: 5px;
+}
+
+.brand {
+	padding: 5px 15px;
+	border: black;
+	border-style: solid;
+	border-width: 5px;
+	margin-top: 45px;
+}
+.pro {
+	margin-top: 46px;
+	margin-bottom: 45px;
+}
+
+.serious {
+	margin-top: 45px;
+	margin-bottom: 30px;
+}
+
+.funny {
+	margin-top: 30px;
+	margin-bottom: 45px;
+}
+
+.hi {
+	text-align: center;
+	margin-top: 50px;
+}
