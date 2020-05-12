@@ -132,7 +132,7 @@ function Resume() {
 							<h5>Primrose Schools</h5>
 							<p className='work'>Teacher</p>
 							<p className='work'>03/2018 to 08/2019</p>
-							<p className='work'>
+							<ul className='work'>
 								<li>
 									{" "}
 									Planned and implemented different daily activities to enhance
@@ -151,11 +151,11 @@ function Resume() {
 									Organized rooms in line with current educational thinking to
 									maximize educational opportunities.
 								</li>
-							</p>
+							</ul>
 							<h5>The Faison School</h5>
 							<p className='work'>Behavior Tech</p>
 							<p className='work'>08/2016 to 02/2018</p>
-							<p className='work'>
+							<ul className='work'>
 								<li>
 									Completed and filed all necessary paperwork for classroom
 									activities, including meal count sheets and attendance logs.
@@ -176,13 +176,13 @@ function Resume() {
 								<li>
 									Background in recording and analyzing empirical data regarding
 									behavior progression.
-								</li>{" "}
+								</li>
 								<li>
 									Identifying the essential components of behavioral analysis
 									which include the antecedent, behavior, and consequence for
 									each client / student.
 								</li>
-							</p>
+							</ul>
 						</div>
 					</div>
 				</div>
