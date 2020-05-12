@@ -11,12 +11,11 @@ function Resume() {
 							<h2>Zachary Sadovszky</h2>
 							<h4>Richmond, VA 23219</h4>
 							<h4>(804) 363-6102 </h4>
-							<h4>zsadov1@gmail.com</h4>
-							<button
+							<a
 								className='btn'
 								href='https://docs.google.com/document/d/1rkmUEhYuyCDWACGh1_Z0D3DyE9o55w0t1j6tHszyd8Y/edit?usp=sharing'>
 								Resume.
-							</button>
+							</a>
 						</div>
 					</div>
 				</div>
