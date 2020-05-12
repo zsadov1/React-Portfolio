@@ -4,6 +4,10 @@
 	border-style: solid;
 } */
 
+.resumeheader {
+	text-align: center;
+}
+
 .resumeparagraph {
 	font-size: 18px;
 	text-align: center;
@@ -38,4 +42,21 @@
 
 .work {
 	font-size: 16px;
+}
+
+.btn {
+	padding: 5px 15px;
+	font-size: 18px;
+	cursor: pointer;
+	position: relative;
+	border: 2px solid black;
+	outline: none;
+	color: black;
+	background-color: transparent;
+	white-space: nowrap;
+}
+
+.btn:hover {
+	background-color: black;
+	color: white;
 }

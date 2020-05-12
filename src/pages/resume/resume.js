@@ -7,19 +7,22 @@ function Resume() {
 			<div className='container'>
 				<div className='row'>
 					<div className='col-md-12'>
-						<p>Zachary Sadovszky</p>
-						<p>Richmond, VA 23219</p>
-						<p>(804) 363-6102 </p>
-						<p>zsadov1@gmail.com</p>
-					</div>
-					<div className='col-md-6'>
-						{
-							<a href='https://docs.google.com/document/d/1rkmUEhYuyCDWACGh1_Z0D3DyE9o55w0t1j6tHszyd8Y/edit?usp=sharing'>
-								<p className=' center resumebutton'>Resume.</p>
-							</a>
-						}
+						<div className='resumeheader'>
+							<h2>Zachary Sadovszky</h2>
+							<h4>Richmond, VA 23219</h4>
+							<h4>(804) 363-6102 </h4>
+							<h4>zsadov1@gmail.com</h4>
+							<button
+								className='btn'
+								href='https://docs.google.com/document/d/1rkmUEhYuyCDWACGh1_Z0D3DyE9o55w0t1j6tHszyd8Y/edit?usp=sharing'>
+								Resume.
+							</button>
+						</div>
 					</div>
 				</div>
+			</div>
+			&nbsp;
+			<div className='container '>
 				<div className='row'>
 					<div className='col-md-12'>
 						<p className='resumeparagraph'>
@@ -38,8 +41,10 @@ function Resume() {
 						</p>
 					</div>
 				</div>
+			</div>
+			<div className='container'>
 				<div className='row'>
-					<div className='col-md-6'>
+					<div className='col-md-12'>
 						<p className='techskills'>
 							<h3>Technical Skills</h3>
 							<h5 className='techcatagories'>Languages</h5>
@@ -63,6 +68,7 @@ function Resume() {
 							<h5 className='techcatagories'>Deployment</h5>
 							<p className='techitems'>Git, GitHub, Heroku, JawsDB</p>
 						</p>
+						&nbsp;
 					</div>
 					<div className='col-md-6'>
 						<h3 className='soft'>Soft Skills</h3>
@@ -75,10 +81,9 @@ function Resume() {
 						<p className='softskills'>Responsibility</p>
 						<p className='softskills'>Goal setting</p>
 						<p className='softskills'>Critical observation</p>
+						<p className='softskills'>Open-mindedness</p>
 					</div>
-				</div>
-				<div className='row'>
-					<div className='col-md-12'>
+					<div className='col-md-6'>
 						<p className='education'>
 							<h3 className='soft'>Education</h3>
 							<h5 className='techcatagories'>University of Richmond </h5>
@@ -99,6 +104,7 @@ function Resume() {
 						</p>
 					</div>
 				</div>
+				&nbsp;
 			</div>
 			<div className='container'>
 				<div className='row'>
