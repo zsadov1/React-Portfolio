@@ -1,16 +1,41 @@
-.resumebutton {
-	font-size: 90px;
-}
-
-.resumecontainer {
-	display: flex;
-	justify-content: center;
-	margin-top: 200px;
-}
-
-a:hover {
-	color: black;
-	text-decoration: none;
-	border: 2px;
+/* .row {
+	border: red;
+	border-width: 5px;
 	border-style: solid;
+} */
+
+.resumeparagraph {
+	font-size: 18px;
+	text-align: center;
+}
+
+.techskills {
+	font-size: 18px;
+	text-align: center;
+}
+
+.techitems {
+	font-size: 16px;
+	text-align: center;
+}
+
+.softskills {
+	font-size: 16px;
+	text-align: center;
+}
+
+.soft {
+	text-align: center;
+}
+
+.education {
+	text-align: center;
+}
+
+.workhistory {
+	text-align: center;
+}
+
+.work {
+	font-size: 16px;
 }
