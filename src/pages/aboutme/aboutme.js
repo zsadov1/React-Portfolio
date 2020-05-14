@@ -35,11 +35,11 @@ function About() {
 				<div className='row'>
 					<div className='col-md-6'>
 						<p className='brand'>
-							I have a real passion creating applications and solving problems.
-							I'm interested in the ever changing landscape of web development,
-							and excited to play a role in future application utilization. I'm
-							working towards my Certificate in Full Stack Web Development (MERN
-							Stack) from the University of Richmond.
+							I have a real passion for creating applications and solving
+							problems. I'm interested in the ever changing landscape of web
+							development, and excited to play a role in future application
+							utilization. I'm a graduate of University of Richmond's, Full
+							Stack Web Development (MERN Stack) course.
 						</p>
 					</div>
 					<div className='col-md-6 '>
