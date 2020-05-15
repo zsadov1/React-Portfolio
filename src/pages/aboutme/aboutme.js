@@ -66,7 +66,7 @@ function About() {
 							puzzles and solutions I was able to come up with. With this new
 							found hobby I decided to take a dive and signed up for the the
 							University of Richmond's Full Stack Bootcamp. When I'm not coding
-							or at work, I love to skateboard, and play music, with my friends.
+							or working, I love to skateboard, and play music with my friends.
 						</p>
 					</div>
 				</div>
