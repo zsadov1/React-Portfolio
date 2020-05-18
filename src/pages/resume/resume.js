@@ -117,6 +117,15 @@ function Resume() {
 							<p className='work'>08/2019 to Current</p>
 							<ul className='work'>
 								<li>
+									Working on the store’s Shopify website and social media
+									platforms.
+								</li>
+								<li>
+									Taking and editing pictures of products and importing them to
+									the website.
+								</li>
+
+								<li>
 									Recommend, select, and help locate or obtain merchandise based
 									on customer needs and desires.
 								</li>
