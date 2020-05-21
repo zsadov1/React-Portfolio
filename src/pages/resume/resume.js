@@ -123,42 +123,32 @@ function Resume() {
 									build targeted iOS and Android devices
 								</li>
 							</ul>
-						</div>
-					</div>
-					<div className='container'>
-						<div className='row'>
-							<div className='workhistory'>
-								<div className='col-md-12'>
-									<h3>Work History </h3>
-									&nbsp;
-									<h5>Franco's Fine Clothier </h5>
-									<p className='work'>Sales Associate</p>
-									<p className='work'>08/2019 to Current</p>
-									<ul className='work'>
-										<li>
-											Working on the store’s Shopify website and social media
-											platforms.
-										</li>
-										<li>
-											Taking and editing pictures of products and importing them
-											to the website.
-										</li>
+							<h5>Franco's Fine Clothier </h5>
+							<p className='work'>Sales Associate</p>
+							<p className='work'>08/2019 to Current</p>
+							<ul className='work'>
+								<li>
+									Working on the store’s Shopify website and social media
+									platforms.
+								</li>
+								<li>
+									Taking and editing pictures of products and importing them to
+									the website.
+								</li>
 
-										<li>
-											Recommend, select, and help locate or obtain merchandise
-											based on customer needs and desires.
-										</li>
-										<li>
-											Compute sales prices, total purchases, and receive and
-											process cash or credit payment.
-										</li>
-										<li>
-											Collaborate with clients to provide optimal assistance in
-											clothing and accessory purchases.
-										</li>
-									</ul>
-								</div>
-							</div>
+								<li>
+									Recommend, select, and help locate or obtain merchandise based
+									on customer needs and desires.
+								</li>
+								<li>
+									Compute sales prices, total purchases, and receive and process
+									cash or credit payment.
+								</li>
+								<li>
+									Collaborate with clients to provide optimal assistance in
+									clothing and accessory purchases.
+								</li>
+							</ul>
 							<h5>Primrose Schools</h5>
 							<p className='work'>Teacher</p>
 							<p className='work'>03/2018 to 08/2019</p>

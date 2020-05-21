@@ -1,8 +1,6 @@
-/* .row {
-	border: red;
-	border-width: 5px;
-	border-style: solid;
-} */
+ul {
+	list-style: none;
+}
 
 .resumeheader {
 	text-align: center;
