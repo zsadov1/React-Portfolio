@@ -114,7 +114,7 @@ function Resume() {
 							&nbsp;
 							<h5>Maya Care </h5>
 							<p className='work'>React Native Developer--contractor </p>
-							<p className='work'>Aug 2020 - October 2020</p>
+							<p className='work'>April 2020-June 2020</p>
 							<ul className='work'>
 								<li>
 									Developed component library and views for health care
