@@ -67,7 +67,7 @@ function ProjectComponent() {
 								</div>
 								<div className='button-container'>
 									<a
-										href='https://roll-call-2020.herokuapp.com/'
+										href='https://spotifeels.herokuapp.com/home.html'
 										className=' mt-auto projectbutton'>
 										Demo.
 									</a>
