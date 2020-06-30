@@ -13,7 +13,7 @@ function Resume() {
 							<h4>(804) 363-6102 </h4>
 							<a
 								className='btn'
-								href='https://drive.google.com/file/d/15qFlhdD6_j74xZVQIcVdW-kQeCS3s4-z/view?usp=sharing'>
+								href='https://drive.google.com/file/d/1PaEaQ4dEaJIQBvilM8cttMaeFEPftmae/view?usp=sharing'>
 								Resume.
 							</a>
 						</div>
